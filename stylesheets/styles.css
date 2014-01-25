@@ -1,0 +1,105 @@
+.layoutless {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+.s2 { /* secondary */
+    color: #60373e;
+    font-size: 50%;
+}
+
+body {
+    font-size:1em;
+    line-height:1.1;
+    font-family:"Times New Roman"; 
+
+    background-color:#91989f;
+    color:#222;
+}
+
+.doc {
+    margin:0 auto;
+    min-height:30em;
+    width:32em;
+    padding:1em;
+
+}
+
+a:link { color: #767676; }
+a:visited { color: #787878; }
+a:hover { color: #787878; }
+a:active { color: #787878; }
+
+h1, h2, h3, h4 {
+    letter-spacing:-0.04em;
+}
+
+h1 .s2, h2 .s2, h3 .s2, h4 .s2 {
+    letter-spacing:-0.03em;
+}
+
+.header {
+    margin-top:2em;
+    font-size: 4em;
+}
+
+.header h2 {
+    margin-bottom: 5px;
+}
+
+.header a {
+    text-decoration:none;
+}
+
+.header p {
+    margin: auto;
+    margin-top:-2.6em;
+    text-align:right;
+}
+
+.header p span {
+    color: #60373e;
+    padding: 4px;
+    margin-bottom:4px;
+}
+
+.menu {
+    font-weight: bold;
+    text-align:right;
+    text-transform:lowercase;
+    padding-top:0.5em;
+    border-top:4px solid #60373e;
+}
+
+.menu li {
+    background-color: #60373e;
+    padding:0.5em;
+    padding-right:0;
+    display:inline;
+}
+
+.menu li a {
+    text-decoration:none;
+}
+
+.menu li a:link { color: #91989f; }
+.menu li a:visited { color: #91989f; }
+.menu li a:hover { color: #cdc; }
+.menu li a:active { color: #91989f; }
+
+.menu li.last {
+    padding-right:0.5em;
+}
+
+/*footer*/
+.footer {
+    margin-top:3em;
+}
+
+.footer p.copy {
+    text-align:center;
+    color: #BDC0BA;
+    font-size: 50%;
+}
+
+
