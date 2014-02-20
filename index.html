@@ -1,44 +1,90 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Zerob13's Page</title>
-<link rel="stylesheet" href="stylesheets/styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-</head>
-<body id="home">
-<div class="doc">
-    <div class="header">
-        <h2>
-            <a href="http://zerob13.in">
-                <span class>Zerob13</span><span class="s2">.in</span>
-            </a>
-        </h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zerob13,a full stack developer living in ShangHai, China.">
+    <meta name="author" content="Zerob13">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Zerob13.in | 混沌的云</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+    <div class="container">
+    	<div class="logo">
+	    	<img src="assets/img/logo.jpg" width="100" alt="zerob13.in">
+    	</div>
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2 w">
+                <h1>Zerob13.in<br/>My digital life</h1>
+			</div>
+		</div>
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+				<a data-toggle="tooltip" title="Github" href="http://github.com/zerob13"><i class="fa fa-github"></i></a>
+				<a data-toggle="tooltip" title="Blog" href="http://blog.zerob13.in"><i class="fa fa-comment"></i></a>
+				<a data-toggle="tooltip" title="Twitter" href="http://twitter.com/zerob13"><i class="fa fa-twitter"></i></a>
+				<a data-toggle="tooltip" title="Email Me!" href="mailto:zerob13@gmail.com"><i class="fa fa-envelope"></i></a>
+				<a data-toggle="tooltip" title="Weibo" href="http://weibo.com/zerob13"><i class="fa fa-weibo"></i></a>
+				<a data-toggle="tooltip" title="LinkedIn" href="http://www.linkedin.com/pub/lingfeng-yang/2b/113/335"><i class="fa fa-linkedin"></i></a>
+			</div>
+		</div>
+    </div><!-- /.container -->
+    
+    <div class="container">
+    	<div class="row w centered">
+    		<br>		
+    		<div class="col-lg-6 col-lg-offset-3">
+    			<p>Storyteller|Photographer|Geek|Coder|Chinese</p>
+    		</div>
+    	</div>
     </div>
-    <ul class="layoutless menu">
-        <li>
-        <a href="http://github.com/zerob13" title="My github profile">Github</a>
-        </li>
-        <li> 
-        <a href="http://blog.zerob13.in" title="My personal Chinese blog published with Ghost(ghost.org)">Blog</a>
-        </li>
-        <li> 
-        <a href="mailto:zerob13@gmail.com" title="Keep touch with me!">mail</a>
-        </li>
-        <li>
-        <a href="https://twitter.com/zerob13" title="just @ me">Twitter</a>
-        </li>
-        <li>
-        <a href="http://weibo.com/zerob13" title="Follow my sina weibo">Weibo</a>
-        </li>
-        <li class="last"> 
-        <a href="#" title="comming soon">Resume</a>
-        </li>
-    </ul>    
     <div class="footer">
-        <p class="copy">zerob13 © 2014
-        </p>
+        <p class="centered">Zerob13 © 2014</p>
     </div>
-</div>
-</body>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+    $('.tooltip-demo').tooltip({
+      selector: "[data-toggle=tooltip]",
+      container: "body"
+    })
+	</script>
+
+
+    <!--BACKSTRETCH-->
+    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+    <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("assets/img/bg.jpg", {speed: 500});
+    </script>
+
+  </body>
+</html>
