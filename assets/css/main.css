@@ -1,5 +1,5 @@
 body {
-    background-color: #4eaa96;
+    background-color: #039be5;
     font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -13,7 +13,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #fafafa;
 }
 
 
@@ -22,7 +22,7 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 20px;
-    color:#fff;
+    color:#fafafa;
 }
 
 .centered {
@@ -30,12 +30,12 @@ p {
 }
 
 b {
-    color:#fff;
+    color:#fafafa;
 }
 
 /* Links */
 a {
-    color: #b9caea;
+    color: #b2dfdb;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -47,7 +47,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #ea487d;
+    color: #ff9800;
     text-decoration: none;
     outline: 0;
 }
