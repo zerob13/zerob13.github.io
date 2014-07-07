@@ -23,5 +23,8 @@ if( isMobile.any() )
     $('#avatar').hover(function(){
         $(this).addClass('swing');
     },function(){$(this).removeClass('swing')});
+    $('.fa').hover(function(){
+        $(this).addClass('swing');
+    },function(){$(this).removeClass('swing')});
 }
 });

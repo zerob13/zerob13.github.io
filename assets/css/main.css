@@ -104,7 +104,6 @@ h1 {
 	padding: 16px;
 }
 @keyframes upsideDown {
-  /* line 1705, ../sass/main.scss */
   from {
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
@@ -113,7 +112,6 @@ h1 {
     transform: rotate(-15deg);
   }
 
-  /* line 1706, ../sass/main.scss */
   to {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
@@ -124,7 +122,6 @@ h1 {
 }
 
 @-webkit-keyframes upsideDown {
-  /* line 1711, ../sass/main.scss */
   from {
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
@@ -133,7 +130,6 @@ h1 {
     transform: rotate(-15deg);
   }
 
-  /* line 1712, ../sass/main.scss */
   to {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
