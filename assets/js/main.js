@@ -18,13 +18,13 @@ any: function() {
 };  
 if( isMobile.any() )   
 {  
-    $('#avatar').addClass('swing');                         
+    $('#avatar').addClass('swing').addClass('sh-img');                         
 }  else{
     $('#avatar').hover(function(){
-        $(this).addClass('swing');
-    },function(){$(this).removeClass('swing')});
+        $(this).addClass('swing').addClass('sh-img');
+    },function(){$(this).removeClass('swing').removeClass('sh-img')});
     $('.fa').hover(function(){
-        $(this).addClass('swing');
-    },function(){$(this).removeClass('swing')});
+        $(this).addClass('swing').addClass('sh-text');
+    },function(){$(this).removeClass('swing').removeClass('sh-text')});
 }
 });

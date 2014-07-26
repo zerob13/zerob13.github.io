@@ -6,6 +6,9 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+}
+
+.sh-text{
     text-shadow: 2px 2px 4px #888888; 
 }
 
@@ -75,67 +78,61 @@ a:after {
 	margin-top: 25px;
     
 }
-#avatar{
+.sh-img{
     -moz-box-shadow: 1px 1px 1px #888888; /* 老的 Firefox */
-box-shadow: 1px 1px 1px #888888;
- /* border:1px solid #C0C0C0; */
-     /*firefox*/
-     -moz-border-radius: 5px;
-     /*css3*/
-     border-radius: 5px;
-     /*webkit*/
-   -webkit-border-radius: 5px;
-
+    box-shadow: 1px 1px 1px #888888;
 }
 .swing{
     animation: upsideDown .6s ease-in-out 0.2s infinite alternate;
-	-webkit-animation: upsideDown .6s ease-in-out 0.2s infinite alternate;
+    -webkit-animation: upsideDown .6s ease-in-out 0.2s infinite alternate;
 }
 
 h1 {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 .w {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 .w i {
-	font-size: 42px;
-	padding: 16px;
+    font-size: 42px;
+    padding: 16px;
 }
 @keyframes upsideDown {
-  from {
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
+    from {
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
 
-  to {
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    transform: rotate(15deg);
-  }
+    to {
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
 }
 
 @-webkit-keyframes upsideDown {
-  from {
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
+    from {
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
 
-  to {
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    transform: rotate(15deg);
-  }
+    to {
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
 }
+
+
 
