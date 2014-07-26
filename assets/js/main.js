@@ -20,6 +20,11 @@ if( isMobile.any() )
 {  
     $('#avatar').addClass('swing').addClass('sh-img');                         
 }  else{
+    $('#avatar').bind('touchstart mousedown', function(){ $(this).addClass('swing').addClass('sh-img');
+    },function(){$(this).removeClass('swing').removeClass('sh-img') });
+    $('.fa').bind('touchstart mousedown',function(){
+        $(this).addClass('swing').addClass('sh-text');
+    },function(){$(this).removeClass('swing').removeClass('sh-text')});
     $('#avatar').hover(function(){
         $(this).addClass('swing').addClass('sh-img');
     },function(){$(this).removeClass('swing').removeClass('sh-img')});
