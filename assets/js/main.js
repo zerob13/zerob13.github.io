@@ -47,12 +47,16 @@ if( isMobile.any() )
 });
 id = -1;
 function tilt(x,y){
-    $('#avatar').addClass('swing').addClass('sh-img');    
-    $('.fa').addClass('swing').addClass('sh-text');
-    if(id!=-1){window.clearTimeout(id);}
+    if(id!=-1){
+        window.clearTimeout(id);
+    }else{
+        $('#avatar').addClass('swing').addClass('sh-img');    
+        $('.fa').addClass('swing').addClass('sh-text');
+    }
     id=window.setTimeout(function(){
         $('.fa').removeClass('swing').removeClass('sh-text')
-        $('#avatar').removeClass('swing').removeClass('sh-img');    
+        $('#avatar').removeClass('swing').removeClass('sh-img'); 
+    id=-1;
     }
     ,1000*5);
 }
