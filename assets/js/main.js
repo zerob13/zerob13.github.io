@@ -45,11 +45,12 @@ if( isMobile.any() )
     },function(){$(this).removeClass('swing').removeClass('sh-text')});
 }
 });
-
+id = -1;
 function tilt(x,y){
     $('#avatar').addClass('swing').addClass('sh-img');    
     $('.fa').addClass('swing').addClass('sh-text');
-    window.setTimeout(function(){
+    if(id!=-1){window.clearTimeout(id);}
+    id=window.setTimeout(function(){
         $('.fa').removeClass('swing').removeClass('sh-text')
         $('#avatar').removeClass('swing').removeClass('sh-img');    
     }
