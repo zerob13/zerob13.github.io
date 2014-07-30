@@ -18,7 +18,19 @@ any: function() {
 };  
 if( isMobile.any() )   
 {  
-    $('#avatar').addClass('swing').addClass('sh-img');                         
+    if (window.DeviceOrientationEvent) {
+        window.addEventListener("deviceorientation", function () {
+            tilt([event.beta, event.gamma]);
+        }, true);
+    } else if (window.DeviceMotionEvent) {
+        window.addEventListener('devicemotion', function () {
+            tilt([event.acceleration.x * 2, event.acceleration.y * 2]);
+        }, true);
+    } else {
+        window.addEventListener("MozOrientation", function () {
+            tilt([orientation.x * 50, orientation.y * 50]);
+        }, true);
+    }
 }  else{
     $('#avatar').bind('touchstart mousedown', function(){ $(this).addClass('swing').addClass('sh-img');
     },function(){$(this).removeClass('swing').removeClass('sh-img') });
@@ -33,3 +45,14 @@ if( isMobile.any() )
     },function(){$(this).removeClass('swing').removeClass('sh-text')});
 }
 });
+
+function tilt(x,y){
+    $('#avatar').addClass('swing').addClass('sh-img');    
+    $('.fa').addClass('swing').addClass('sh-text');
+    window.setTimeout(function(){
+        $('.fa').removeClass('swing').removeClass('sh-text')
+        $('#avatar').removeClass('swing').removeClass('sh-img');    
+    }
+    ,1000*5);
+}
+
