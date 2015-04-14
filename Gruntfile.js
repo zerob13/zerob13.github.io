@@ -1,5 +1,5 @@
 // Generated on 2015-04-14 using
-// generator-happy-mobile-webapp 0.2.1
+// generator-happy-mobile-webapp 0.2.2
 'use strict';
 
 // # Globbing
