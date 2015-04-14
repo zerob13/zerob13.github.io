@@ -1,0 +1,8 @@
+{
+  "name": "zerob13-github-io",
+  "private": true,
+  "dependencies": {
+    "zepto": "~1.1.6",
+    "modernizr": "~2.8.2"
+  }
+}

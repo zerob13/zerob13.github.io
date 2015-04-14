@@ -1,5 +1,5 @@
-.DS_Store
-2048.apk
-2048rev.apk
-a.apk
-purecolor.apk
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
