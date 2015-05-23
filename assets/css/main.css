@@ -1,5 +1,32 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
 body {
-    background-color: #039be5;
+background: linear-gradient(20deg, #039be5, #9c27b0, #e91e63, #673ab7, #8bc34a);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 60s ease infinite;
+-moz-animation: AnimationName 60s ease infinite;
+-o-animation: AnimationName 60s ease infinite;
+animation: AnimationName 60s ease infinite;
+
     font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
     font-weight: 300;
     font-size: 16px;

@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>Baymax by zerob13</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<style>
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.robot-wrap{width:600px;height:360px;margin:auto;display:block;background:#ffdbdb;position:relative}
+@-webkit-keyframes movehead{from{top:140px}to{top:150px}}@keyframes movehead{from{top:140px}to{top:150px}}
+.baymax-head{height:70px;width:100px;display:block;background:#fff;border-radius:50px/35px;position:absolute;top:90px;left:250px;-webkit-box-shadow:-4px -5px 15px #a3a3a3;box-shadow:-4px -5px 15px #a3a3a3}.baymax-head:after{content:"";width:12px;height:12px;border-radius:12px;background:#000;display:block;position:absolute;top:25px;left:20px;-webkit-box-shadow:48px 0 0 #000,52px 75px 0 #ffdbdb;box-shadow:48px 0 0 #000,52px 75px 0 #ffdbdb}.baymax-head:before{content:"";width:48px;height:1px;background:#000;display:block;position:absolute;top:30.5px;left:30px}.baymax-body{height:400px;width:300px;background:#fff;display:block;position:absolute;top:150px;left:150px;-webkit-box-shadow:-4px -5px 15px #a3a3a3;box-shadow:-4px -5px 15px #a3a3a3;border-radius:150px/200px;-webkit-animation:movehead 2s ease 0s infinite alternate;animation:movehead 2s ease 0s infinite alternate}.baymax-body:after{content:"";width:32px;height:230px;border-radius:16px/115px;background:#ffdbdb;display:block;position:absolute;top:46px;left:50px;-webkit-transform:rotateZ(-175deg);transform:rotateZ(-175deg)}.baymax-body:before{content:"";width:32px;height:230px;border-radius:16px/115px;background:#ffdbdb;display:block;position:absolute;top:46px;right:50px;-webkit-transform:rotateZ(175deg);transform:rotateZ(175deg)}.mask{background:#fff;height:100%;min-height:300px;min-width:600px;width:100%;display:block;position:absolute;top:365px;left:0px}
+</style>
+</head>
+<body>
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div class="robot-wrap">
+    <div class="baymax-body"></div>
+    <div class="baymax-head"></div>
+  </div>
+  <div class="mask"></div>
+</body>
+
+</html>

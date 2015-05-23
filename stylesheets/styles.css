@@ -1,3 +1,23 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
 .layoutless {
     padding: 0 ;
     margin: 0 ;
@@ -12,8 +32,15 @@ body {
     font-size:1em;
     line-height:1.1;
     font-family:Roboto,"Helvetica Neue",Helvetica,Arial,freesans,sans-serif;
-    background-color:#91989f;
-    color:#222;
+ background: linear-gradient(20deg, #039be5, #9c27b0, #e91e63, #673ab7, #8bc34a);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 7s ease infinite;
+-moz-animation: AnimationName 7s ease infinite;
+-o-animation: AnimationName 7s ease infinite;
+animation: AnimationName 7s ease infinite;
+
+   color:#222;
 }
 
 .doc {
