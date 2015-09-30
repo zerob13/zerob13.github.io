@@ -1,5 +1,4 @@
 .DS_Store
-2048.apk
-2048rev.apk
-a.apk
-purecolor.apk
+node_modules
+.yo-rc.json
+*.log
