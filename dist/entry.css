@@ -1,8 +1,124 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("/static/fonts/icomoon.eot?p9dov5");
+  src: url("/static/fonts/icomoon.eot?p9dov5#iefix") format("embedded-opentype"), url("/static/fonts/icomoon.ttf?p9dov5") format("truetype"), url("/static/fonts/icomoon.woff?p9dov5") format("woff"), url("/static/fonts/icomoon.svg?p9dov5#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-sina-weibo:before {
+  content: "\E600"; }
+
+.icon-twitter:before {
+  content: "\E601"; }
+
+.icon-github3:before {
+  content: "\E602"; }
+
+.icon-linkedin2:before {
+  content: "\E603"; }
+
+.icon-pen:before {
+  content: "\E604"; }
+
+.icon-paperplane:before {
+  content: "\E605"; }
+
 body {
-  background: #eee;
+  background: #aaa;
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  min-height: 500px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: blue; }
+.box {
+  position: absolute;
+  left: 50%;
+  top: 250px;
+  margin-left: -200px; }
+
+.title {
+  display: block;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fafafa;
+  text-shadow: 2px 2px 4px #888888; }
+
+a {
+  display: inline-block;
+  font-size: 2rem; }
+
+.link-wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-top: 2%;
+  width: 100%; }
+  .link-wrap i {
+    display: block; }
+
+.rightFace,
+.leftFace,
+.topFace {
+  position: absolute; }
+  .rightFace > div,
+  .leftFace > div,
+  .topFace > div {
+    padding: 10px;
+    width: 180px;
+    height: 180px; }
+
+.leftFace {
+  -webkit-transform: skew(0deg, 30deg);
+      -ms-transform: skew(0deg, 30deg);
+          transform: skew(0deg, 30deg);
+  background-color: #ccc; }
+
+.rightFace {
+  left: 200px;
+  background-color: #ddd;
+  -webkit-transform: skew(0deg, -30deg);
+      -ms-transform: skew(0deg, -30deg);
+          transform: skew(0deg, -30deg); }
+
+.topFace {
+  -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+          transform: rotate(60deg);
+  top: -158px;
+  left: 100px; }
+  .topFace img {
+    display: inline-block;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  .topFace div {
+    -webkit-transform: skew(0deg, -30deg) scale(1, 1.16);
+        -ms-transform: skew(0deg, -30deg) scale(1, 1.16);
+            transform: skew(0deg, -30deg) scale(1, 1.16);
+    background-color: #eee;
+    font-size: 0.862em; }
 
 /*# sourceMappingURL=entry.css.map*/

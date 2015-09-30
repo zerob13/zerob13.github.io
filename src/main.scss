@@ -1,4 +1,18 @@
-body{
-  background:#eee;
-  display:flex;
+@import "fontawesome";
+
+body {
+  background: #aaa;
+  height:100%;
+  width:100%;
+  font-size:62.5%;
+  min-height: 500px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  &:hover{
+
+  color: blue;
+  }
 }

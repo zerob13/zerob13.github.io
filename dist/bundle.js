@@ -14137,9 +14137,9 @@
 
 /***/ },
 /* 117 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	module.exports = "<div class='box'>\n    <div class=\"topFace\">\n      <span class=\"avatar\"><img src=\"" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./images/logo.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + "\" alt=\"\"></span>\n    </div>\n    <div class=\"leftFace\">\n      <div class=\"title\">Life</div>\n      <a href=\"http://blog.zerob13.in\">博客</a>\n      <a href=\"http://weibo.com/zerob13\">微博</a>\n      <a href=\"http://twitter.com/zerob13\">Twitter</a>\n    </div>\n    <div class=\"rightFace\">\n      <div class=\"title\">Life</div>\n      <a href=\"http://blog.zerob13.in\">博客</a>\n      <a href=\"http://weibo.com/zerob13\">微博</a>\n      <a href=\"http://twitter.com/zerob13\">Twitter</a>\n    </div>\n  </div>";
+	module.exports = "<div class='box'>\n    <div class=\"topFace\">\n      <div class=\"avatar\">\n        <span>Zerob13.in</span>\n        <img src=\"/images/logo.png\" alt=\"LOGO\">\n      </div>\n    </div>\n    <div class=\"leftFace\">\n      <div>\n        <span class=\"title\">Life</span>\n        <div class=\"link-wrap\">\n          <a href=\"http://blog.zerob13.in\"><i class=\"icon-pen\"></i></a>\n          <a href=\"http://weibo.com/zerob13\"><i class=\"icon-sina-weibo\"></i></a>\n          <a href=\"http://twitter.com/zerob13\"><i class=\"icon-twitter\"></i></a>\n        </div>\n      </div>\n    </div>\n    <div class=\"rightFace\">\n      <div>\n        <span class=\"title\">Geek</span>\n        <div class=\"link-wrap\">\n          <a href=\"http://github.com/zerob13\"><i class=\"icon-github3\"></i></a>\n          <a href=\"http://www.linkedin.com/pub/lingfeng-yang/2b/113/335\"><i class=\"icon-linkedin2\"></i></a>\n          <a href=\"mailto:zerob13@gmail.com\"><i class=\"icon-paperplane\"></i></a>\n        </div>\n      </div>\n    </div>\n  </div>";
 
 /***/ },
 /* 118 */

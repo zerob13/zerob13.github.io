@@ -67,6 +67,10 @@ gulp.task('img', function() {
     .pipe(imagemin())
     .pipe(gulp.dest(dest + '/images'));
 });
+gulp.task('static', function() {
+  return gulp.src([src + '/static/**'])
+    .pipe(gulp.dest(dest + '/static'));
+});
 
 function handleErrors() {
   var args = Array.prototype.slice.call(arguments);
@@ -80,7 +84,7 @@ function handleErrors() {
 gulp.task('web-server', function() {
   browserSync.init(config.webServer);
 });
-gulp.task('watch', ['webpack', 'img', 'html', 'web-server'], function() {
+gulp.task('watch', ['webpack', 'img', 'html', 'static', 'web-server'], function() {
   gulp.watch(config.script.watch, ['webpack']).on('change', reload);
   gulp.watch(config.scss.src, ['webpack']).on('change', reload);
   gulp.watch(config.src + '/**/*.vue', ['webpack']).on('change', reload);
@@ -101,4 +105,4 @@ gulp.task('clean', function(next) {
 
 gulp.task('default', ['watch']);
 
-gulp.task('build', ['webpack', 'img', 'html']);
+gulp.task('build', ['webpack', 'img', 'static', 'html']);
