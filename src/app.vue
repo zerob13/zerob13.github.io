@@ -6,8 +6,8 @@
 
 <script>
   module.exports = {
-    el: function(){
-      return '#app';
+    el: function() {
+      return document.querySelectorAll('#app');
     },
     data: function() {
       return {

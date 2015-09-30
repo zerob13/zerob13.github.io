@@ -14098,7 +14098,7 @@
 	
 	module.exports = {
 	  el: function el() {
-	    return '#app';
+	    return document.querySelectorAll('#app');
 	  },
 	  data: function data() {
 	    return {
@@ -14137,9 +14137,9 @@
 
 /***/ },
 /* 117 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div class='box'>\n    <div class=\"topFace\"></div>\n    <div class=\"leftFace\"></div>\n    <div class=\"rightFace\"></div>\n  </div>";
+	module.exports = "<div class='box'>\n    <div class=\"topFace\">\n      <span class=\"avatar\"><img src=\"" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./images/logo.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + "\" alt=\"\"></span>\n    </div>\n    <div class=\"leftFace\">\n      <div class=\"title\">Life</div>\n      <a href=\"http://blog.zerob13.in\">博客</a>\n      <a href=\"http://weibo.com/zerob13\">微博</a>\n      <a href=\"http://twitter.com/zerob13\">Twitter</a>\n    </div>\n    <div class=\"rightFace\">\n      <div class=\"title\">Life</div>\n      <a href=\"http://blog.zerob13.in\">博客</a>\n      <a href=\"http://weibo.com/zerob13\">微博</a>\n      <a href=\"http://twitter.com/zerob13\">Twitter</a>\n    </div>\n  </div>";
 
 /***/ },
 /* 118 */
