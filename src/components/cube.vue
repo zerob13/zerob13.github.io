@@ -95,6 +95,7 @@
       height: 100%;
       border-radius: 100%;
       transform: rotate(-45deg);
+      margin-left: 10px;
     }
     div {
       transform: skew(0deg, -30deg) scale(1, 1.16);
