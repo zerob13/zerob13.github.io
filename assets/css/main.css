@@ -1,38 +1,23 @@
-@-webkit-keyframes AnimationName {
-    0%{background-position:38% 0%}
-    50%{background-position:63% 100%}
-    100%{background-position:38% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:38% 0%}
-    50%{background-position:63% 100%}
-    100%{background-position:38% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:38% 0%}
-    50%{background-position:63% 100%}
-    100%{background-position:38% 0%}
-}
-@keyframes AnimationName { 
-    0%{background-position:38% 0%}
-    50%{background-position:63% 100%}
-    100%{background-position:38% 0%}
-}
 body {
-background: linear-gradient(20deg, #039be5, #9c27b0, #e91e63, #673ab7, #8bc34a);
-background-size: 1000% 1000%;
-
--webkit-animation: AnimationName 60s ease infinite;
--moz-animation: AnimationName 60s ease infinite;
--o-animation: AnimationName 60s ease infinite;
-animation: AnimationName 60s ease infinite;
-
+  background: #112;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
     font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
     font-weight: 300;
     font-size: 16px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+}
+
+#scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
 }
 
 .sh-text{
@@ -44,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
     font-weight: 300;
     color: #fafafa;
+    text-shadow: 2px 2px 12px #000; 
 }
 
 
@@ -53,6 +39,7 @@ p {
     margin-bottom: 25px;
     font-size: 20px;
     color:#fafafa;
+    text-shadow: 2px 2px 12px #000; 
 }
 
 .centered {
