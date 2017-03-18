@@ -178,15 +178,15 @@ var params = function GalaxyParameters() {
     this.arms = 2, this.stops = 5000, this.revolutions = 1.7, this.radius = 240, this.sparse = 0.3, this.dispersion = 0.5, // more 0 - less 1
     this.bulge = 0.6, this.vortex = 0.0, this.randomize = function () {
       // console.log('gui', gui);
-      for (var i = 0; i < gui.__controllers.length; i++) {
-        var c = gui.__controllers[i];
-        if (c.__min) {
-          var value = c.__min + (c.__max - c.__min) * Math.random();
-          // console.log(value, c);
-          this[c.property] = value;
-          c.updateDisplay();
-        }
-      }
+      // for (var i = 0; i < gui.__controllers.length; i++) {
+      //   var c = gui.__controllers[i];
+      //   if (c.__min) {
+      //     var value = c.__min + (c.__max - c.__min) * Math.random();
+      //     // console.log(value, c);
+      //     this[c.property] = value;
+      //     c.updateDisplay();
+      //   }
+      // }
       onChange(this);
     }, this.exportPCD = function () {
       var geometry = particles.geometry;
@@ -365,38 +365,38 @@ function onChange(params) {
   particles.geometry = geometry;
 }
 
-var gui = function datgui() {
-  var gui = new dat.GUI();
-  gui.closed = true;
-  gui.add(params, 'arms', 1, 10).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'stops', 1000, 10000).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'revolutions', 1.1, 3.1).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'radius', 300, 1000).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'sparse', 0.1, 1).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'dispersion', 0.01, 1).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'bulge', 0.01, 1).onChange(function (newValue) {
-    onChange(params);
-  });
-  gui.add(params, 'vortex', -1, 1, 0.01).onChange(function (newValue) {
-    onChange(params);
-  });
-  // gui.add(text, 'displayOutline');
-  gui.add(params, 'randomize');
-  gui.add(params, 'exportXYZ').name('EXPORT *.XYZ');
-  return gui;
-}();
+// var gui = function datgui() {
+//   var gui = new dat.GUI();
+//   gui.closed = true;
+//   gui.add(params, 'arms', 1, 10).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'stops', 1000, 10000).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'revolutions', 1.1, 3.1).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'radius', 300, 1000).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'sparse', 0.1, 1).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'dispersion', 0.01, 1).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'bulge', 0.01, 1).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   gui.add(params, 'vortex', -1, 1, 0.01).onChange(function (newValue) {
+//     onChange(params);
+//   });
+//   // gui.add(text, 'displayOutline');
+//   gui.add(params, 'randomize');
+//   gui.add(params, 'exportXYZ').name('EXPORT *.XYZ');
+//   return gui;
+// }();
 
 onChange(params);
 
