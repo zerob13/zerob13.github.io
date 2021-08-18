@@ -32,6 +32,7 @@ domain: "zerob13.github.io"
 remote_theme: pages-themes/hacker
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 # Google Analytics
 google_analytics: UA-73374885-1
 
