@@ -29,7 +29,7 @@ github_username:  zerob13
 domain: "zerob13.github.io"
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 # Google Analytics
