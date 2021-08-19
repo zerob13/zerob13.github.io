@@ -40,14 +40,13 @@ cd ${JEKYLL_POSTS_DIR}
 touch ${FILENAME}
 
 # add YAML front matter
-echo -e "
----
-layout: post
+echo -e "---
 title: ${TITLE}
 date: ${DATE} 
-permalink: ${PERMALINK}
-author: zerob13
-tags: []
+categories:
+  - 日记
+tags: 
+  - 日常
 ---
 
 " >>${FILENAME}
