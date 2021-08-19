@@ -54,7 +54,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 # Google Analytics
-google_analytics: UA-73374885-1
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-73374885-1"
+    anonymize_ip: false # default
 
 
 author:
