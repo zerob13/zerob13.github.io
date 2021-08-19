@@ -29,7 +29,7 @@ github_username:  zerob13
 domain: "zerob13.github.io"
 
 # Build settings
-remote_theme: amitmerchant1990/reverie
+remote_theme: jamigibbs/phantom
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
