@@ -29,7 +29,8 @@ github_username:  zerob13
 domain: "zerob13.github.io"
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
