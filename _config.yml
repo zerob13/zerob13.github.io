@@ -28,13 +28,23 @@ twitter_username: imwritingbugs
 github_username:  zerob13
 domain: "zerob13.github.io"
 
+minimal_mistakes_skin: default
+search: true
+
+
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
 
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 # Google Analytics
 google_analytics: UA-73374885-1
 
