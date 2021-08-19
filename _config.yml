@@ -58,22 +58,22 @@ google_analytics: UA-73374885-1
 
 
 author:
-name   : "zerob13"
-avatar : "/assets/images/bio-photo.jpg"
-bio    : "一个脱离了高级趣味的人"
-links:
-  - label: "Blog"
-    icon: "fas fa-fw fa-link"
-    url: "https://zerob13.github.io"
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-    url: "https://twitter.com/imwritingbugs"
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/zerob13"
-  - label: "Instagram"
-    icon: "fab fa-fw fa-instagram"
-    url: "https://instagram.com/zerob13"
+  name   : "zerob13"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "一个脱离了高级趣味的人"
+  links:
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://zerob13.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/imwritingbugs"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zerob13"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/zerob13"
 
 footer:
   links:
