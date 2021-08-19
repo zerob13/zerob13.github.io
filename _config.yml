@@ -33,8 +33,6 @@ theme: minima
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-include-cache
 # Google Analytics
 google_analytics: UA-73374885-1
 
