@@ -44,9 +44,9 @@ echo -e "---
 title: ${TITLE}
 date: ${DATE} 
 categories:
-  - 日记
+  - log
 tags: 
-  - 日常
+  - daily
 ---
 
 " >>${FILENAME}
