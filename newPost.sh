@@ -49,4 +49,7 @@ tags:
   - daily
 ---
 
+![](/assets/images/20210822.jpeg)
+
+>题图是今天参加完活动后去吃的 Five guys 和 M Stand。
 " >>${FILENAME}
