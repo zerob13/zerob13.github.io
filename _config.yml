@@ -67,7 +67,7 @@ author:
   bio    : "一个脱离了高级趣味的人"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-in"
+      icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/lingfengyang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
