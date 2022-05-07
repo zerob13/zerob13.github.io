@@ -1,6 +1,7 @@
 ---
-title: happy-birthday-2022
+title: 2022生日随记
 date: 2022-05-07 
+permalink: happy-birthday-2022
 categories:
   - log
 tags: 
