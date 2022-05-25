@@ -34,7 +34,7 @@ search: true
 # Build settings
 #theme: minima
 markdown: kramdown
-remote_theme: zerob13/minimal-mistakes
+remote_theme: cotes2020/jekyll-theme-chirpy
 
 # Outputting
 permalink: /:categories/:title/
