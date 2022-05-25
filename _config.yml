@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,17 +25,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zerob13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: imwritingbugs
-github_username:  zerob13
+github_username: zerob13
 domain: "zerob13.github.io"
 
 minimal_mistakes_skin: dark
 search: true
 
-
 # Build settings
 #theme: minima
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: zerob13/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
@@ -60,11 +59,10 @@ analytics:
     tracking_id: "UA-73374885-1"
     anonymize_ip: false # default
 
-
 author:
-  name   : "zerob13"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "一个脱离了高级趣味的人"
+  name: "zerob13"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "一个脱离了高级趣味的人"
   links:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
