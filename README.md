@@ -4,8 +4,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/imwritingbugs?style=flat-square)](https://twitter.com/imwritingbugs)
 
 
-- 🔭 I’m currently working on node.js and electron.js.
-- 🌱 I’m currently learning some serverless functions mojo :P
+- 🔭 I’m currently working on node.js and electron.
 - 📫 How to reach me: [zerob13@gmail.com](mailto:zerob13@gmail.com)
 - ⚡ Fun fact: I'm also a freelance photographer based in Shanghai
 
