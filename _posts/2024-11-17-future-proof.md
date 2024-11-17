@@ -7,7 +7,7 @@ tags:
   - daily
 ---
 
-![](/assets/images/20241117.jpeg)
+![](/assets/images/20241117.jPEG)
 
 >题图是之前偶然收到的一台箱说全甚至有日本当地购物小票的OM-2。
 
