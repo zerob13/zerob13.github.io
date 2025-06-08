@@ -23,7 +23,7 @@ email: blog@zerob13.com
 description: >- # this means to ignore newlines until "baseurl:"
   其实就是一个中年程序员的碎碎念（好老的说法）
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.zerob13.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.zerob13.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: imwritingbugs
 github_username: zerob13
 domain: "zerob13.github.io"
